@@ -131,7 +131,7 @@ export function VideoInputForm (props: VideoInputFormProps) {
 
       <div className="space-y-2">
         <Label htmlFor="transcriptionPrompt">Prompt de transcrição</Label>
-        <Textarea 
+        <Textarea
           ref={promptInputRef}
           id="transcriptionPrompt" 
           className="h-20 leading-relaxed resize-none"
